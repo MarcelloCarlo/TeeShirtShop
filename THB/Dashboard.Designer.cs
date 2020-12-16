@@ -127,7 +127,7 @@
             this.ProductsTabPage.Name = "ProductsTabPage";
             this.ProductsTabPage.Size = new System.Drawing.Size(826, 568);
             this.ProductsTabPage.TabIndex = 5;
-            this.ProductsTabPage.Text = "Case 8";
+            this.ProductsTabPage.Text = "TeeShirtShop";
             // 
             // metroPanel4
             // 
