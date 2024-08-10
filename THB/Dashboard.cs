@@ -63,7 +63,7 @@ namespace TeeShirtShop
                 if (shirtsize == "SMALL" || shirtsize == "MEDIUM" || shirtsize == "LARGE" || shirtsize == "EXTRA LARGE")
                 {
                     subtotal = 16 * Convert.ToInt32(txbxQTY.Text);
-                    MetroMessageBox.Show(this, "Shirt Name: " + ShirtNamelbl.Text + "\nSize: " + shirtsize.ToString() + "\nQuantity: " + txbxQTY.Text + "\nUnit Price: $16\nTotal Price: $" + 16 * Convert.ToInt32(txbxQTY.Text), "You Purchased", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MetroMessageBox.Show(this, "Shirt Name: " + ShirtNamelbl.Text + "\nSize: " + shirtsize.ToString() + "\nQuantity: " + txbxQTY.Text + "\nUnit Price: $16\nTotal Price: $" + 16 * Convert.ToInt32(txbxQTY.Text), "You Ordered", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     orderedGrid.Rows.Add(ShirtNamelbl.Text, shirtsize.ToString(),txbxQTY.Text,
                         "$"+Convert.ToString(subtotal));
                     total += subtotal;
@@ -72,7 +72,7 @@ namespace TeeShirtShop
                 else
                 {
                     subtotal = 20 * Convert.ToInt32(txbxQTY.Text);
-                    MetroMessageBox.Show(this, "Shirt Name: " + ShirtNamelbl.Text + "\nSize: " + shirtsize.ToString() + "\nQuantity: " + txbxQTY.Text + "\nUnit Price: $20\nTotal Price: $" + 20 * Convert.ToInt32(txbxQTY.Text), "You Purchased", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MetroMessageBox.Show(this, "Shirt Name: " + ShirtNamelbl.Text + "\nSize: " + shirtsize.ToString() + "\nQuantity: " + txbxQTY.Text + "\nUnit Price: $20\nTotal Price: $" + 20 * Convert.ToInt32(txbxQTY.Text), "You Ordered", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     orderedGrid.Rows.Add(ShirtNamelbl.Text, shirtsize.ToString(), txbxQTY.Text, "$"+Convert.ToString(subtotal));
                     total += subtotal;
 

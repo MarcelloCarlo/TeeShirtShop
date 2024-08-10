@@ -105,10 +105,11 @@
             this.DashTabControl.FontSize = MetroFramework.MetroTabControlSize.Tall;
             this.DashTabControl.HotTrack = true;
             this.DashTabControl.ItemSize = new System.Drawing.Size(140, 35);
-            this.DashTabControl.Location = new System.Drawing.Point(40, 64);
+            this.DashTabControl.Location = new System.Drawing.Point(53, 79);
+            this.DashTabControl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DashTabControl.Name = "DashTabControl";
             this.DashTabControl.SelectedIndex = 0;
-            this.DashTabControl.Size = new System.Drawing.Size(834, 611);
+            this.DashTabControl.Size = new System.Drawing.Size(1112, 752);
             this.DashTabControl.TabIndex = 7;
             this.DashTabControl.TextAlign = System.Drawing.ContentAlignment.TopLeft;
             this.DashTabControl.UseCustomForeColor = true;
@@ -124,8 +125,9 @@
             this.ProductsTabPage.Controls.Add(this.ProductDtlPanel);
             this.ProductsTabPage.Controls.Add(this.Case8);
             this.ProductsTabPage.Location = new System.Drawing.Point(4, 39);
+            this.ProductsTabPage.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ProductsTabPage.Name = "ProductsTabPage";
-            this.ProductsTabPage.Size = new System.Drawing.Size(826, 568);
+            this.ProductsTabPage.Size = new System.Drawing.Size(1104, 709);
             this.ProductsTabPage.TabIndex = 5;
             this.ProductsTabPage.Text = "TeeShirtShop";
             // 
@@ -136,39 +138,43 @@
             this.metroPanel4.Controls.Add(this.getTotalbtn);
             this.metroPanel4.HorizontalScrollbarBarColor = true;
             this.metroPanel4.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroPanel4.HorizontalScrollbarSize = 10;
-            this.metroPanel4.Location = new System.Drawing.Point(9, 510);
+            this.metroPanel4.HorizontalScrollbarSize = 12;
+            this.metroPanel4.Location = new System.Drawing.Point(12, 628);
+            this.metroPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.metroPanel4.Name = "metroPanel4";
-            this.metroPanel4.Size = new System.Drawing.Size(328, 55);
+            this.metroPanel4.Size = new System.Drawing.Size(437, 68);
             this.metroPanel4.TabIndex = 5;
             this.metroPanel4.VerticalScrollbarBarColor = true;
             this.metroPanel4.VerticalScrollbarHighlightOnWheel = false;
-            this.metroPanel4.VerticalScrollbarSize = 10;
+            this.metroPanel4.VerticalScrollbarSize = 13;
             // 
             // totallabel
             // 
             this.totallabel.AutoSize = true;
-            this.totallabel.Location = new System.Drawing.Point(188, 18);
+            this.totallabel.Location = new System.Drawing.Point(251, 22);
+            this.totallabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.totallabel.Name = "totallabel";
-            this.totallabel.Size = new System.Drawing.Size(23, 19);
+            this.totallabel.Size = new System.Drawing.Size(25, 20);
             this.totallabel.TabIndex = 4;
             this.totallabel.Text = "$0";
             // 
             // metroLabel9
             // 
             this.metroLabel9.AutoSize = true;
-            this.metroLabel9.Location = new System.Drawing.Point(110, 18);
+            this.metroLabel9.Location = new System.Drawing.Point(147, 22);
+            this.metroLabel9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel9.Name = "metroLabel9";
-            this.metroLabel9.Size = new System.Drawing.Size(72, 19);
+            this.metroLabel9.Size = new System.Drawing.Size(75, 20);
             this.metroLabel9.TabIndex = 3;
             this.metroLabel9.Text = "Total Price:";
             // 
             // getTotalbtn
             // 
             this.getTotalbtn.ActiveControl = null;
-            this.getTotalbtn.Location = new System.Drawing.Point(4, 3);
+            this.getTotalbtn.Location = new System.Drawing.Point(5, 4);
+            this.getTotalbtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.getTotalbtn.Name = "getTotalbtn";
-            this.getTotalbtn.Size = new System.Drawing.Size(79, 49);
+            this.getTotalbtn.Size = new System.Drawing.Size(105, 60);
             this.getTotalbtn.TabIndex = 2;
             this.getTotalbtn.Text = "BUY ALL";
             this.getTotalbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -183,14 +189,15 @@
             this.prodPanel.Controls.Add(this.firstProd1);
             this.prodPanel.HorizontalScrollbarBarColor = true;
             this.prodPanel.HorizontalScrollbarHighlightOnWheel = false;
-            this.prodPanel.HorizontalScrollbarSize = 10;
-            this.prodPanel.Location = new System.Drawing.Point(458, 2);
+            this.prodPanel.HorizontalScrollbarSize = 12;
+            this.prodPanel.Location = new System.Drawing.Point(611, 2);
+            this.prodPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.prodPanel.Name = "prodPanel";
-            this.prodPanel.Size = new System.Drawing.Size(372, 509);
+            this.prodPanel.Size = new System.Drawing.Size(496, 626);
             this.prodPanel.TabIndex = 4;
             this.prodPanel.VerticalScrollbarBarColor = true;
             this.prodPanel.VerticalScrollbarHighlightOnWheel = false;
-            this.prodPanel.VerticalScrollbarSize = 10;
+            this.prodPanel.VerticalScrollbarSize = 13;
             // 
             // metroPanel3
             // 
@@ -199,21 +206,23 @@
             this.metroPanel3.Controls.Add(this.pictureBox4);
             this.metroPanel3.HorizontalScrollbarBarColor = true;
             this.metroPanel3.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroPanel3.HorizontalScrollbarSize = 10;
-            this.metroPanel3.Location = new System.Drawing.Point(193, 254);
+            this.metroPanel3.HorizontalScrollbarSize = 12;
+            this.metroPanel3.Location = new System.Drawing.Point(257, 313);
+            this.metroPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.metroPanel3.Name = "metroPanel3";
-            this.metroPanel3.Size = new System.Drawing.Size(177, 231);
+            this.metroPanel3.Size = new System.Drawing.Size(236, 284);
             this.metroPanel3.TabIndex = 9;
             this.metroPanel3.VerticalScrollbarBarColor = true;
             this.metroPanel3.VerticalScrollbarHighlightOnWheel = false;
-            this.metroPanel3.VerticalScrollbarSize = 10;
+            this.metroPanel3.VerticalScrollbarSize = 13;
             // 
             // bjorkbtn
             // 
             this.bjorkbtn.ActiveControl = null;
-            this.bjorkbtn.Location = new System.Drawing.Point(3, 184);
+            this.bjorkbtn.Location = new System.Drawing.Point(4, 226);
+            this.bjorkbtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bjorkbtn.Name = "bjorkbtn";
-            this.bjorkbtn.Size = new System.Drawing.Size(171, 44);
+            this.bjorkbtn.Size = new System.Drawing.Size(228, 54);
             this.bjorkbtn.TabIndex = 5;
             this.bjorkbtn.Text = "SELECT";
             this.bjorkbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -223,18 +232,20 @@
             // metroLabel8
             // 
             this.metroLabel8.AutoSize = true;
-            this.metroLabel8.Location = new System.Drawing.Point(69, 162);
+            this.metroLabel8.Location = new System.Drawing.Point(92, 199);
+            this.metroLabel8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel8.Name = "metroLabel8";
-            this.metroLabel8.Size = new System.Drawing.Size(39, 19);
+            this.metroLabel8.Size = new System.Drawing.Size(40, 20);
             this.metroLabel8.TabIndex = 4;
             this.metroLabel8.Text = "Bjork";
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::TeeShirtShop.Properties.Resources.AlbumArt__B93A3103_637C_4FAC_A93C_E0BCAB6D42D4__Large;
-            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox4.Location = new System.Drawing.Point(4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(172, 156);
+            this.pictureBox4.Size = new System.Drawing.Size(229, 192);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
@@ -246,21 +257,23 @@
             this.metroPanel2.Controls.Add(this.pictureBox3);
             this.metroPanel2.HorizontalScrollbarBarColor = true;
             this.metroPanel2.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroPanel2.HorizontalScrollbarSize = 10;
-            this.metroPanel2.Location = new System.Drawing.Point(12, 254);
+            this.metroPanel2.HorizontalScrollbarSize = 12;
+            this.metroPanel2.Location = new System.Drawing.Point(16, 313);
+            this.metroPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.metroPanel2.Name = "metroPanel2";
-            this.metroPanel2.Size = new System.Drawing.Size(178, 228);
+            this.metroPanel2.Size = new System.Drawing.Size(237, 281);
             this.metroPanel2.TabIndex = 8;
             this.metroPanel2.VerticalScrollbarBarColor = true;
             this.metroPanel2.VerticalScrollbarHighlightOnWheel = false;
-            this.metroPanel2.VerticalScrollbarSize = 10;
+            this.metroPanel2.VerticalScrollbarSize = 13;
             // 
             // lanabtn
             // 
             this.lanabtn.ActiveControl = null;
-            this.lanabtn.Location = new System.Drawing.Point(3, 181);
+            this.lanabtn.Location = new System.Drawing.Point(4, 223);
+            this.lanabtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lanabtn.Name = "lanabtn";
-            this.lanabtn.Size = new System.Drawing.Size(172, 44);
+            this.lanabtn.Size = new System.Drawing.Size(229, 54);
             this.lanabtn.TabIndex = 5;
             this.lanabtn.Text = "SELECT";
             this.lanabtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -270,18 +283,20 @@
             // metroLabel7
             // 
             this.metroLabel7.AutoSize = true;
-            this.metroLabel7.Location = new System.Drawing.Point(48, 162);
+            this.metroLabel7.Location = new System.Drawing.Point(64, 199);
+            this.metroLabel7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel7.Name = "metroLabel7";
-            this.metroLabel7.Size = new System.Drawing.Size(84, 19);
+            this.metroLabel7.Size = new System.Drawing.Size(90, 20);
             this.metroLabel7.TabIndex = 4;
             this.metroLabel7.Text = "Lana Del Rey";
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::TeeShirtShop.Properties.Resources.Ultraviolence__Special_Edition_;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox3.Location = new System.Drawing.Point(4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(172, 156);
+            this.pictureBox3.Size = new System.Drawing.Size(229, 192);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -293,21 +308,23 @@
             this.metroPanel1.Controls.Add(this.pictureBox2);
             this.metroPanel1.HorizontalScrollbarBarColor = true;
             this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.HorizontalScrollbarSize = 10;
-            this.metroPanel1.Location = new System.Drawing.Point(193, 9);
+            this.metroPanel1.HorizontalScrollbarSize = 12;
+            this.metroPanel1.Location = new System.Drawing.Point(257, 11);
+            this.metroPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.metroPanel1.Name = "metroPanel1";
-            this.metroPanel1.Size = new System.Drawing.Size(178, 239);
+            this.metroPanel1.Size = new System.Drawing.Size(237, 294);
             this.metroPanel1.TabIndex = 7;
             this.metroPanel1.VerticalScrollbarBarColor = true;
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.VerticalScrollbarSize = 10;
+            this.metroPanel1.VerticalScrollbarSize = 13;
             // 
             // fkabtn
             // 
             this.fkabtn.ActiveControl = null;
-            this.fkabtn.Location = new System.Drawing.Point(3, 195);
+            this.fkabtn.Location = new System.Drawing.Point(4, 240);
+            this.fkabtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.fkabtn.Name = "fkabtn";
-            this.fkabtn.Size = new System.Drawing.Size(172, 41);
+            this.fkabtn.Size = new System.Drawing.Size(229, 50);
             this.fkabtn.TabIndex = 5;
             this.fkabtn.Text = "SELECT";
             this.fkabtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -317,18 +334,20 @@
             // metroLabel6
             // 
             this.metroLabel6.AutoSize = true;
-            this.metroLabel6.Location = new System.Drawing.Point(56, 173);
+            this.metroLabel6.Location = new System.Drawing.Point(75, 213);
+            this.metroLabel6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(67, 19);
+            this.metroLabel6.Size = new System.Drawing.Size(71, 20);
             this.metroLabel6.TabIndex = 4;
             this.metroLabel6.Text = "FKA Twigs";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::TeeShirtShop.Properties.Resources.cover1;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(172, 167);
+            this.pictureBox2.Size = new System.Drawing.Size(229, 206);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -340,21 +359,23 @@
             this.firstProd1.Controls.Add(this.pictureBox1);
             this.firstProd1.HorizontalScrollbarBarColor = true;
             this.firstProd1.HorizontalScrollbarHighlightOnWheel = false;
-            this.firstProd1.HorizontalScrollbarSize = 10;
-            this.firstProd1.Location = new System.Drawing.Point(12, 9);
+            this.firstProd1.HorizontalScrollbarSize = 12;
+            this.firstProd1.Location = new System.Drawing.Point(16, 11);
+            this.firstProd1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.firstProd1.Name = "firstProd1";
-            this.firstProd1.Size = new System.Drawing.Size(178, 239);
+            this.firstProd1.Size = new System.Drawing.Size(237, 294);
             this.firstProd1.TabIndex = 6;
             this.firstProd1.VerticalScrollbarBarColor = true;
             this.firstProd1.VerticalScrollbarHighlightOnWheel = false;
-            this.firstProd1.VerticalScrollbarSize = 10;
+            this.firstProd1.VerticalScrollbarSize = 13;
             // 
             // declanbtn
             // 
             this.declanbtn.ActiveControl = null;
-            this.declanbtn.Location = new System.Drawing.Point(3, 195);
+            this.declanbtn.Location = new System.Drawing.Point(4, 240);
+            this.declanbtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.declanbtn.Name = "declanbtn";
-            this.declanbtn.Size = new System.Drawing.Size(172, 41);
+            this.declanbtn.Size = new System.Drawing.Size(229, 50);
             this.declanbtn.TabIndex = 4;
             this.declanbtn.Text = "SELECT";
             this.declanbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -364,18 +385,20 @@
             // metroLabel5
             // 
             this.metroLabel5.AutoSize = true;
-            this.metroLabel5.Location = new System.Drawing.Point(37, 173);
+            this.metroLabel5.Location = new System.Drawing.Point(49, 213);
+            this.metroLabel5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(108, 19);
+            this.metroLabel5.Size = new System.Drawing.Size(117, 20);
             this.metroLabel5.TabIndex = 3;
             this.metroLabel5.Text = "Declan  Mckeena";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::TeeShirtShop.Properties.Resources.cover;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(172, 167);
+            this.pictureBox1.Size = new System.Drawing.Size(229, 206);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -385,14 +408,15 @@
             this.gridpanel.Controls.Add(this.orderedGrid);
             this.gridpanel.HorizontalScrollbarBarColor = true;
             this.gridpanel.HorizontalScrollbarHighlightOnWheel = false;
-            this.gridpanel.HorizontalScrollbarSize = 10;
-            this.gridpanel.Location = new System.Drawing.Point(4, 244);
+            this.gridpanel.HorizontalScrollbarSize = 12;
+            this.gridpanel.Location = new System.Drawing.Point(5, 300);
+            this.gridpanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gridpanel.Name = "gridpanel";
-            this.gridpanel.Size = new System.Drawing.Size(440, 257);
+            this.gridpanel.Size = new System.Drawing.Size(587, 316);
             this.gridpanel.TabIndex = 3;
             this.gridpanel.VerticalScrollbarBarColor = true;
             this.gridpanel.VerticalScrollbarHighlightOnWheel = false;
-            this.gridpanel.VerticalScrollbarSize = 10;
+            this.gridpanel.VerticalScrollbarSize = 13;
             // 
             // orderedGrid
             // 
@@ -428,7 +452,8 @@
             this.orderedGrid.EnableHeadersVisualStyles = false;
             this.orderedGrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.orderedGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.orderedGrid.Location = new System.Drawing.Point(2, 3);
+            this.orderedGrid.Location = new System.Drawing.Point(3, 4);
+            this.orderedGrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.orderedGrid.Name = "orderedGrid";
             this.orderedGrid.ReadOnly = true;
             this.orderedGrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -440,9 +465,10 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.orderedGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.orderedGrid.RowHeadersWidth = 51;
             this.orderedGrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.orderedGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.orderedGrid.Size = new System.Drawing.Size(438, 250);
+            this.orderedGrid.Size = new System.Drawing.Size(584, 308);
             this.orderedGrid.TabIndex = 2;
             this.orderedGrid.UseCustomForeColor = true;
             this.orderedGrid.UseStyleColors = true;
@@ -450,6 +476,7 @@
             // ProdnameCol
             // 
             this.ProdnameCol.HeaderText = "Product Name";
+            this.ProdnameCol.MinimumWidth = 6;
             this.ProdnameCol.Name = "ProdnameCol";
             this.ProdnameCol.ReadOnly = true;
             this.ProdnameCol.Width = 120;
@@ -457,6 +484,7 @@
             // ProdSize
             // 
             this.ProdSize.HeaderText = "Size";
+            this.ProdSize.MinimumWidth = 6;
             this.ProdSize.Name = "ProdSize";
             this.ProdSize.ReadOnly = true;
             this.ProdSize.Width = 80;
@@ -464,6 +492,7 @@
             // ProdQty
             // 
             this.ProdQty.HeaderText = "Quantity";
+            this.ProdQty.MinimumWidth = 6;
             this.ProdQty.Name = "ProdQty";
             this.ProdQty.ReadOnly = true;
             this.ProdQty.Width = 80;
@@ -471,8 +500,10 @@
             // TotAmount
             // 
             this.TotAmount.HeaderText = "Total Amount";
+            this.TotAmount.MinimumWidth = 6;
             this.TotAmount.Name = "TotAmount";
             this.TotAmount.ReadOnly = true;
+            this.TotAmount.Width = 125;
             // 
             // ProductDtlPanel
             // 
@@ -488,20 +519,22 @@
             this.ProductDtlPanel.Controls.Add(this.metroLabel1);
             this.ProductDtlPanel.HorizontalScrollbarBarColor = true;
             this.ProductDtlPanel.HorizontalScrollbarHighlightOnWheel = false;
-            this.ProductDtlPanel.HorizontalScrollbarSize = 10;
-            this.ProductDtlPanel.Location = new System.Drawing.Point(6, 14);
+            this.ProductDtlPanel.HorizontalScrollbarSize = 12;
+            this.ProductDtlPanel.Location = new System.Drawing.Point(8, 17);
+            this.ProductDtlPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ProductDtlPanel.Name = "ProductDtlPanel";
-            this.ProductDtlPanel.Size = new System.Drawing.Size(438, 224);
+            this.ProductDtlPanel.Size = new System.Drawing.Size(584, 276);
             this.ProductDtlPanel.TabIndex = 1;
             this.ProductDtlPanel.VerticalScrollbarBarColor = true;
             this.ProductDtlPanel.VerticalScrollbarHighlightOnWheel = false;
-            this.ProductDtlPanel.VerticalScrollbarSize = 10;
+            this.ProductDtlPanel.VerticalScrollbarSize = 13;
             // 
             // ShirtNamelbl
             // 
             this.ShirtNamelbl.AutoSize = true;
             this.ShirtNamelbl.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ShirtNamelbl.Location = new System.Drawing.Point(117, 46);
+            this.ShirtNamelbl.Location = new System.Drawing.Point(156, 57);
+            this.ShirtNamelbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ShirtNamelbl.Name = "ShirtNamelbl";
             this.ShirtNamelbl.Size = new System.Drawing.Size(0, 0);
             this.ShirtNamelbl.TabIndex = 13;
@@ -509,9 +542,10 @@
             // clearbtn
             // 
             this.clearbtn.ActiveControl = null;
-            this.clearbtn.Location = new System.Drawing.Point(282, 170);
+            this.clearbtn.Location = new System.Drawing.Point(376, 209);
+            this.clearbtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.clearbtn.Name = "clearbtn";
-            this.clearbtn.Size = new System.Drawing.Size(105, 39);
+            this.clearbtn.Size = new System.Drawing.Size(140, 48);
             this.clearbtn.TabIndex = 12;
             this.clearbtn.Text = "CLEAR";
             this.clearbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -521,9 +555,10 @@
             // buybtn
             // 
             this.buybtn.ActiveControl = null;
-            this.buybtn.Location = new System.Drawing.Point(162, 170);
+            this.buybtn.Location = new System.Drawing.Point(216, 209);
+            this.buybtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buybtn.Name = "buybtn";
-            this.buybtn.Size = new System.Drawing.Size(103, 39);
+            this.buybtn.Size = new System.Drawing.Size(137, 48);
             this.buybtn.TabIndex = 11;
             this.buybtn.Text = "BUY";
             this.buybtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -533,9 +568,10 @@
             // addcartbtn
             // 
             this.addcartbtn.ActiveControl = null;
-            this.addcartbtn.Location = new System.Drawing.Point(41, 170);
+            this.addcartbtn.Location = new System.Drawing.Point(55, 209);
+            this.addcartbtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.addcartbtn.Name = "addcartbtn";
-            this.addcartbtn.Size = new System.Drawing.Size(105, 39);
+            this.addcartbtn.Size = new System.Drawing.Size(140, 48);
             this.addcartbtn.TabIndex = 10;
             this.addcartbtn.Text = "ADD TO CART";
             this.addcartbtn.UseSelectable = true;
@@ -547,16 +583,18 @@
             // 
             // 
             this.txbxQTY.CustomButton.Image = null;
-            this.txbxQTY.CustomButton.Location = new System.Drawing.Point(45, 1);
+            this.txbxQTY.CustomButton.Location = new System.Drawing.Point(84, 2);
+            this.txbxQTY.CustomButton.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txbxQTY.CustomButton.Name = "";
-            this.txbxQTY.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.txbxQTY.CustomButton.Size = new System.Drawing.Size(31, 28);
             this.txbxQTY.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.txbxQTY.CustomButton.TabIndex = 1;
             this.txbxQTY.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.txbxQTY.CustomButton.UseSelectable = true;
             this.txbxQTY.CustomButton.Visible = false;
             this.txbxQTY.Lines = new string[0];
-            this.txbxQTY.Location = new System.Drawing.Point(117, 122);
+            this.txbxQTY.Location = new System.Drawing.Point(156, 150);
+            this.txbxQTY.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txbxQTY.MaxLength = 32767;
             this.txbxQTY.Name = "txbxQTY";
             this.txbxQTY.PasswordChar = '\0';
@@ -565,7 +603,7 @@
             this.txbxQTY.SelectionLength = 0;
             this.txbxQTY.SelectionStart = 0;
             this.txbxQTY.ShortcutsEnabled = true;
-            this.txbxQTY.Size = new System.Drawing.Size(67, 23);
+            this.txbxQTY.Size = new System.Drawing.Size(89, 28);
             this.txbxQTY.TabIndex = 8;
             this.txbxQTY.UseSelectable = true;
             this.txbxQTY.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
@@ -582,7 +620,7 @@
             "XSMALL",
             "XXLARGE"});
             this.SizeOptions.FormattingEnabled = true;
-            this.SizeOptions.ItemHeight = 23;
+            this.SizeOptions.ItemHeight = 24;
             this.SizeOptions.Items.AddRange(new object[] {
             "SMALL",
             "MEDIUM",
@@ -590,53 +628,59 @@
             "EXTRA LARGE",
             "XSMALL",
             "XXLARGE"});
-            this.SizeOptions.Location = new System.Drawing.Point(117, 81);
+            this.SizeOptions.Location = new System.Drawing.Point(156, 100);
+            this.SizeOptions.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SizeOptions.Name = "SizeOptions";
-            this.SizeOptions.Size = new System.Drawing.Size(175, 29);
+            this.SizeOptions.Size = new System.Drawing.Size(232, 30);
             this.SizeOptions.TabIndex = 7;
             this.SizeOptions.UseSelectable = true;
             // 
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(25, 122);
+            this.metroLabel4.Location = new System.Drawing.Point(33, 150);
+            this.metroLabel4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(61, 19);
+            this.metroLabel4.Size = new System.Drawing.Size(64, 20);
             this.metroLabel4.TabIndex = 5;
             this.metroLabel4.Text = "Quantity:";
             // 
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(32, 81);
+            this.metroLabel3.Location = new System.Drawing.Point(43, 100);
+            this.metroLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(35, 19);
+            this.metroLabel3.Size = new System.Drawing.Size(37, 20);
             this.metroLabel3.TabIndex = 4;
             this.metroLabel3.Text = "Size:";
             // 
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(21, 46);
+            this.metroLabel2.Location = new System.Drawing.Point(28, 57);
+            this.metroLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(79, 19);
+            this.metroLabel2.Size = new System.Drawing.Size(82, 20);
             this.metroLabel2.TabIndex = 3;
             this.metroLabel2.Text = "Shirt Name:";
             // 
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(3, -3);
+            this.metroLabel1.Location = new System.Drawing.Point(4, -4);
+            this.metroLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(97, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(102, 20);
             this.metroLabel1.TabIndex = 2;
             this.metroLabel1.Text = "Product Details";
             // 
             // Case8
             // 
-            this.Case8.Location = new System.Drawing.Point(3, 2);
+            this.Case8.Location = new System.Drawing.Point(4, 2);
+            this.Case8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Case8.Name = "Case8";
-            this.Case8.Size = new System.Drawing.Size(851, 580);
+            this.Case8.Size = new System.Drawing.Size(1135, 714);
             this.Case8.TabIndex = 0;
             this.Case8.UseSelectable = true;
             // 
@@ -648,10 +692,11 @@
             this.TimeXDate.CalendarTrailingForeColor = System.Drawing.SystemColors.Desktop;
             this.TimeXDate.DisplayFocus = true;
             this.TimeXDate.FontWeight = MetroFramework.MetroDateTimeWeight.Light;
-            this.TimeXDate.Location = new System.Drawing.Point(675, 29);
-            this.TimeXDate.MinimumSize = new System.Drawing.Size(0, 29);
+            this.TimeXDate.Location = new System.Drawing.Point(900, 36);
+            this.TimeXDate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TimeXDate.MinimumSize = new System.Drawing.Size(0, 30);
             this.TimeXDate.Name = "TimeXDate";
-            this.TimeXDate.Size = new System.Drawing.Size(199, 29);
+            this.TimeXDate.Size = new System.Drawing.Size(264, 30);
             this.TimeXDate.TabIndex = 8;
             // 
             // htmlToolTip1
@@ -661,27 +706,26 @@
             // metroLabel10
             // 
             this.metroLabel10.AutoSize = true;
-            this.metroLabel10.Location = new System.Drawing.Point(591, 39);
+            this.metroLabel10.Location = new System.Drawing.Point(788, 48);
+            this.metroLabel10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.metroLabel10.Name = "metroLabel10";
-            this.metroLabel10.Size = new System.Drawing.Size(66, 19);
+            this.metroLabel10.Size = new System.Drawing.Size(69, 20);
             this.metroLabel10.TabIndex = 9;
             this.metroLabel10.Text = "Hi Friend!";
             // 
-            // currentAdminBindingSource
-            // 
-            this.currentAdminBindingSource.DataSource = typeof(TeeShirtShop.CurrentAdmin);
-            // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackLocation = MetroFramework.Forms.BackLocation.BottomRight;
-            this.ClientSize = new System.Drawing.Size(921, 698);
+            this.ClientSize = new System.Drawing.Size(1228, 859);
             this.Controls.Add(this.metroLabel10);
             this.Controls.Add(this.TimeXDate);
             this.Controls.Add(this.DashTabControl);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "Dashboard";
+            this.Padding = new System.Windows.Forms.Padding(27, 74, 27, 25);
             this.Resizable = false;
             this.Text = "Alternative Tops";
             this.Load += new System.EventHandler(this.Form1_Load);
